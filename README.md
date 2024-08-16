@@ -21,5 +21,5 @@ Proyek **Tourism in Lombok** adalah aplikasi web yang dikembangkan untuk menyedi
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/username/tourism-in-lombok.git
-   cd tourism-in-lombok
+   git clone https://github.com/Hendardinata/tourism.git
+   cd tourism
