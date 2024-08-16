@@ -23,3 +23,20 @@ Proyek **Tourism in Lombok** adalah aplikasi web yang dikembangkan untuk menyedi
    ```bash
    git clone https://github.com/Hendardinata/tourism.git
    cd tourism
+2. **Composer dan npm**
+   ```bash
+    composer install
+    npm install
+3. **Konfigurasi Environment**
+   ```bash
+    cp .env.example .env
+    php artisan key:generate
+4. **Migrasi dan Seeder Database**
+   ```bash
+    php artisan migrate --seed
+5. **Jalankan Aplikasi**
+    ```bash
+    php artisan serve
+6. **Akses Aplikasi**
+   ```bash
+   Buka browser Anda dan akses http://localhost:8000 untuk mulai menggunakan aplikasi.
